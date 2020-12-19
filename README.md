@@ -1,7 +1,7 @@
 # Transformations bijectives d'images (2017)
 Louise Blart
 
-Projet réalisé dans le cadre du cours "Algorithme et programmation 1" (premier cours de python) en première année de licence MASS (Université de Lille). Le but de ce projet est de manipuler des images avec le module Pillow de python.
+Projet réalisé dans le cadre du cours "Algorithmes et Programmation 1" (premier cours de python) en première année de licence MASS (Université de Lille). Le but de ce projet est de manipuler des images avec le module Pillow de python.
 
 Le fichier Projet_transformations_bijectives_dimages contient l'ensemble des fonctions créées pour ce pojet : 
 - symetries (verticale, horizontale, centrale) : Ces fonctions créent une symétrie en fonction de l'axe vertical, horizontal ou central,
