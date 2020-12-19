@@ -13,14 +13,14 @@ def symetrie_horizontale (image,n=1):
     for i in range(n):
         for l in range (ligne) :
             for c in range(colonne):
-                pixel= img.getpixel((c,l))# selectionner un pixel a la fois
+                pixel= img.getpixel((c,l))# selectionner un pixel à la fois
                 img2.putpixel((c,ligne-l-1),pixel) # implanter le pixel dans la meme colonne mais à la ligne opposée horizontalement de l'image initiale  
         img2.save('imagehorizontal.png')
         img=Image.open('imagehorizontal.png')
     return img
 
 def symetrie_verticale(image,n=1):
-    ''' Cette fonction permet, a partir d'une image, de créer la symétrie de cette image à partir de l'axe vertical'''
+    ''' Cette fonction permet, à partir d'une image, de créer la symétrie de cette image à partir de l'axe vertical'''
     img= Image.open(image) # ouverture de l'image à traiter
     img2=Image.new(img.mode,img.size) # création d'une nouvelle image avec le meme mode et la même taille que la premiere
     colonne,ligne=img.size
